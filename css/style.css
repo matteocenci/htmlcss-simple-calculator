@@ -40,6 +40,12 @@ img{
     border-radius: 25px;
 }
 
+.display-num{
+    color: greenyellow;
+    font-size: 40px;
+    
+}
+
 /* MAIN */
 
 .calc-header{
@@ -51,6 +57,7 @@ img{
 .display-container{
     display: flex;
     justify-content: center;
+    
 
     
 }
@@ -60,6 +67,8 @@ img{
     background-color: black;
     height: 80px;
     width: 100%;
+    justify-content: end;
+    align-items: center;
 
     
 }
