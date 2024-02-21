@@ -7,3 +7,51 @@
 img{
     max-width: 100%;
 }
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: lightgray;
+    margin: 300px auto;
+    border-radius: 25px;
+}
+
+.calc-header{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.display-container{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+
+    
+}
+
+.display{
+    display: flex;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+
+    
+}
+
+.text{
+    display: flex;
+    color: greenyellow;
+}
+
+.num-buttons{
+    height: 70%;
+}
+
+
