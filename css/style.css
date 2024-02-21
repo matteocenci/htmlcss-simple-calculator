@@ -1,3 +1,5 @@
+
+/* RESET */
 *{
     margin: 0;
     padding: 0;
@@ -29,6 +31,7 @@ img{
     flex-direction: row;
     
 }
+
 .container{
     width: 400px;
     height: 600px;
@@ -36,6 +39,8 @@ img{
     margin: 300px auto;
     border-radius: 25px;
 }
+
+/* MAIN */
 
 .calc-header{
     justify-content: center;
