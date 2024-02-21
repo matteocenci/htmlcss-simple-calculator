@@ -14,6 +14,15 @@ img{
     background-color: orange;
 }
 
+.grey-bt{
+    background-color: gray;
+}
+
+.lightblue-bt{
+    background-color: aqua;
+}
+
+
 .flex{
     display: flex;
     justify-content: center;
@@ -58,24 +67,43 @@ img{
 .num-buttons{
     height: 70%;
     width: 70%;
+    flex-wrap: wrap;
+    
     
     
 }
 
 .number{
-    background-color: brown;
+    
     width: 80px;
     height: 80px;
     margin: 10px auto;
-   
+    font-size: 30px;
+    border-radius: 10px;
     
 }
 
-.calc-buttons{
-    height: 30%;
+.op-buttons{
     width: 30%;
-    display: flex;
-    flex-direction: column;
+    height: 30%;
+    flex-wrap: wrap;
+    
+    
 }
+
+.operation{
+    width: 65px;
+    height: 65px;
+    margin: 5px auto;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+.bot-part{
+    width: 400px;
+    height: 400px;
+}
+
 
 
